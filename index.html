@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <style>
+        body{
+            background-color: black;
+        }
+        .container{
+            border: 5px solid blue;
+            border-radius: 15px;
+            width: 70%;
+            height: auto;
+            margin: auto;
+            margin-top: 100px;
+            padding: 25px 10px;
+            text-align: center;
+            background-color: whitesmoke;
+            
+        }
+        input{
+            padding: 7px 10px;
+            border: 1px solid blue;
+            width: auto;
+            font-weight: bold;
+        }
+        .num1, .num2{
+            width: 30px;
+        }
+        .answer{
+            width: 60px;
+        }
+        .correctMessage, .wrongMessage{
+            display: none;
+            color: green;
+        }
+        
+        
+    </style>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>children game</title>
+</head>
+<body>
+    <div class="container">
+        <h1>CHILDREN  MATHS GAME</h1>
+        <div class="game">
+            <input   class="num1"> +  <input   class="num2"> = 
+            <input type="number" class="answer" placeholder="Result">
+            <input type="submit" value="submit" id="submit">
+        
+            <p class="message"></p>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
